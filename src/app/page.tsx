@@ -3,6 +3,7 @@ import Hero from "./components/hero/page";
 //import Game from "./components/hero/game";
 import About from "./components/About/page";
 import Telei from "./components/telei/page";
+import Timeline from "./components/timeline/Timeline";
 //import Events from "./components/Programs/events";
 import Footer from "./components/footer/footer";
 //import MoreEvents from "./components/Programs/AllEvents";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <About />
       <Telei />
+      <Timeline/>
       <Footer />
     </>
   );
